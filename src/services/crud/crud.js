@@ -1,6 +1,6 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
-import baseQueryWithAuth from "../path/to/baseQueryWithAuth";
 import { endpoints } from "../apiendpoints";
+import baseQueryWithAuth from "../Basequeryauth";
 
 export const crudApiSlice = createApi({
   reducerPath: "crudApi",

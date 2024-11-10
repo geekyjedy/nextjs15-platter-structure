@@ -1,5 +1,5 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
-import baseQueryWithAuth from "../path/to/baseQueryWithAuth";  // Import the centralized base query
+import baseQueryWithAuth from "../Basequeryauth";
 
 export const adminAuthApiSlice = createApi({
   reducerPath: "authApi",
